@@ -1,0 +1,28 @@
+# IDE settings
+.idea/
+.vscode/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+credentials
+credentials.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# AWS and infrastructure state
+.aws/
+*.tfstate
+*.tfstate.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
